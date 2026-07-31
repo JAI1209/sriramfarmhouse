@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { background-color: #F3EEE4; color: #14130F; }
+
+@layer utilities {
+  .text-eyebrow {
+    font-family: 'Space Grotesk', monospace;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+  .hairline {
+    border-color: rgba(20,19,15,0.12);
+  }
+}
